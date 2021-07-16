@@ -1,0 +1,343 @@
+
+h1 {color:#345e54;
+display:inline-block;
+}
+
+ 
+
+
+
+h2 {color:#345e54;
+}
+
+ 
+
+body {background-color:#345e54;
+color:#ffffff;
+}
+
+ 
+
+ 
+
+
+
+
+#wrapper {
+background-color:#000;
+
+width:92%; 
+
+margin:auto; 
+
+}
+
+ 
+
+
+
+a {
+  color:#345e54;
+  
+background-color: transparent;
+
+}
+
+ 
+
+
+
+a:hover {
+  color: red;
+  
+background-color: transparent;
+  
+text-decoration: 
+underline;
+
+}
+
+ 
+
+
+
+
+
+a:active {
+  color: yellow;
+  
+background-color: transparent;
+  
+text-decoration: underline;
+
+}
+
+ 
+
+ 
+
+
+
+#footer {
+color:white;
+
+background-color:#333;
+
+ 
+
+
+}
+
+ 
+
+
+
+
+
+nav ul { 
+  list-style-type: none; 
+  
+margin: 0; 
+  
+padding: 0; 
+  
+overflow: hidden; 
+  
+background-color: #333; 
+
+} 
+ 
+
+
+nav ul li { 
+  float: left; 
+
+} 
+ 
+
+
+nav ul li a { 
+  display: block; 
+  
+color: white; 
+ 
+ text-align: center; 
+  
+padding: 14px 16px; 
+  
+text-decoration: none; 
+
+} 
+
+
+ 
+/* Change the link color to #111 (black) on hover */ 
+
+nav ul li a:hover { 
+  
+background-color: #111; 
+
+}
+
+
+.container {
+ 
+ display: grid;
+  
+grid-template-columns: 1fr 1fr 1fr;
+  
+grid-template-rows: 2fr 0.5fr 1.5fr;
+  
+gap: 0px 29px;
+  
+grid-auto-flow: row;
+  
+grid-template-areas:
+   
+ "box1 box2 box3"
+   
+ ". . ."
+   
+ "box4 box5 box6";
+}
+
+
+
+ 
+
+.box1 {
+  
+display: grid;
+  
+grid-template-columns: 1fr 1fr 1fr;
+  
+grid-template-rows: 0.8fr 1.2fr 1fr;
+  
+gap: 0px 0px;
+ 
+ grid-auto-flow: row;
+ 
+ grid-template-areas:
+    
+"header1 header1 header1"
+   
+ "video1 video1 video1"
+   
+ "video1 video1 video1";
+  
+grid-area: box1;
+
+}
+
+ 
+
+
+
+.video1 { 
+grid-area: video1; }
+
+ 
+
+
+
+.header1 { grid-area: header1; }
+
+
+
+ 
+
+.box2 {
+ 
+ display: grid;
+  
+grid-template-columns: 1fr 1fr 1fr;
+ 
+ grid-template-rows: 0.8fr 1.2fr 1fr;
+ 
+ gap: 0px 0px;
+  
+grid-auto-flow: row;
+ 
+ grid-template-areas:
+    
+"header2 header2 header2"
+    
+"video2 video2 video2"
+   
+ "video2 video2 video2";
+ 
+ grid-area: box2;
+
+}
+
+ 
+
+
+
+.video2 { grid-area: video2; }
+
+
+
+ 
+
+.header2 { grid-area: header2; }
+
+
+
+ 
+
+.box3 {
+ 
+ display: grid;
+
+ grid-template-columns: 1fr 1fr 1fr;
+ 
+ grid-template-rows: 0.8fr 1.2fr 1fr;
+ 
+ gap: 0px 0px;
+ 
+ grid-auto-flow: row;
+ 
+ grid-template-areas:
+   
+ "header3 header3 header3"
+ 
+ "video3 video3 video3"
+   
+ "video3 video3 video3";
+  
+grid-area: box3;
+
+}
+
+ 
+
+
+
+.video3 { grid-area: video3; }
+
+
+
+ .header3 { grid-area: header3; }
+
+
+
+ 
+
+.box4 { grid-area: box4; }
+
+ 
+
+
+
+.box5 { grid-area: box5; }
+
+
+
+ 
+
+.box6 { grid-area: box6; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conainter2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px 8px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "vid1 vid2 vid3"
+    "vid4 vid5 vid6"
+    "vid7 vid8 vid9";
+}
+
+.vid1 { grid-area: vid1; }
+
+.vid2 { grid-area: vid2; }
+
+.vid3 { grid-area: vid3; }
+
+.vid4 { grid-area: vid4; }
+
+.vid5 { grid-area: vid5; }
+
+.vid6 { grid-area: vid6; }
+
+.vid7 { grid-area: vid7; }
+
+.vid8 { grid-area: vid8; }
+
+.vid9 { grid-area: vid9; }
